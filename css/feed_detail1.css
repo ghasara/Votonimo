@@ -1,0 +1,245 @@
+.feed_detail1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.photo_detail1{
+    width:50%;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid rgba(0,0,0,.0975);
+    max-width: 800px;
+    margin-bottom: 60px;
+    margin-top:-2%;
+}
+
+.photo__header_detail1{
+    padding:15px 20px;
+    display: flex;
+    align-items: center;
+    position:relative;
+    /*border-bottom:1px solid rgba(0,0,0,.0975);*/
+}
+.photo_detail1o{
+    width:50%;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid rgba(0,0,0,.0975);
+    max-width: 800px;
+    margin-bottom: 60px;
+    margin-top:-2%;
+}
+
+.photo__header_detail1o{
+    padding:15px 15px 15px 15px;
+    display: flex;
+    align-items: center;
+    position:relative;
+    border-bottom:1px solid rgba(0,0,0,.0975);
+}
+
+
+.photo__header_detail1-column i{
+    position: absolute;
+    top:17px;
+   
+
+}
+/*.photo__headd{
+   max-height:2%;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid rgb(255, 255, 255);
+}*/
+.photo__headd p{
+    font-size:15px;
+    padding:17px 10px 0px 18px;
+    color:#999;
+}
+.photo__headd i{
+    top:17px;
+    font-size:20px;
+    padding:17px 0px 0px 0px;
+    margin-left: 71%;
+}
+.photo__avatar_detail1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right:15px;
+}
+.photo__avatar_detail1o{
+    height: 100px;
+    width: 140px;
+    margin-right:10px;
+}
+
+.photo__dess{
+    color:#999;
+    padding:5px 5px 5px 0px;
+    font-size:12px;
+    left:0;
+}
+.photo__d{
+    color:#999;
+    padding:5px 5px 5px 0px;
+    font-size:12px;
+}
+.photo__file-contain_detail1{
+    display:flex;
+    border-color:white;
+    padding:0px 10px 4px 8px;
+    max-height: 100% !important;
+}
+
+.photo__file_detail1{
+    flex:49%;
+    padding:3px 3px 3px 3px;
+    max-width:99% !important;
+    max-height:100% !important;
+
+}
+
+.photo__info{
+    padding:5px 15px 0px 15px;
+}
+
+.photo__icons{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.photo__icon:nth-child(1){
+    margin-left:10px;
+}
+.photo__icon:nth-child(2){
+    margin-left:20px;
+}
+.photo__icon:nth-child(3){
+    float:right;
+    margin-right:5px;
+}
+
+
+.photo__like{
+    color:rgb(146, 146, 146);
+    font-weight: 550;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.photo__comment{
+    padding: 0px;
+}
+
+.photo__comment-author{
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.photo__time-ago{
+    color:#999;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 5px;
+    display: block;
+    /*border-bottom:1px solid rgba(0,0,0,.0975);*/
+}
+
+.photo__add-comment-container{
+    position: relative;
+}
+
+.photo__add-comment-container i{
+    position: absolute;
+    top:17px;
+    right:0;
+}
+.photo__username1{
+    width:90%;
+    display: block;
+    font-weight: 600;
+    margin-right:97%;;
+}
+.photo__usernameo{
+    width:90%;
+    display: block;
+    font-weight: 600;
+    margin-bottom:10%;
+    margin-right:97%;;
+}
+.photo__header_detail1 i{
+    position: absolute;
+    right:0;
+    margin-right:30px;
+    margin-bottom:5px;
+    
+}
+.photo__header_detail1o i{
+    position: absolute;
+    right:0;
+    margin-right:30px;
+    margin-bottom:5px;
+    
+}
+.photo__add-comment{
+    width: 97%;
+    border:0;
+    resize: none;
+    font-size: 14px;
+    padding-top:5px 15px;
+}
+
+.photo__add-comment:focus{
+    outline: none;
+}
+
+.heart-red{
+    color:rgb(52, 89, 255);
+}
+.login__div{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-transform: uppercase; 
+    font-weight: 400;
+    color:rgb(102, 102, 102);
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.login__div:after{
+    content:'';
+    width: 40%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top:5px;
+    right:0;
+}
+
+.login__div:before{
+    content:'';
+    width: 40%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top:5px;
+    left:0;
+}
+.heart-red{
+    color:red;
+}
+.fa-heart .fa-thumbs{
+    animation: bump .6s infinite linear;
+}
+.photo__user{
+    padding:15px;
+    font-size:15px;
+    font-weight:700;
+    color:black;
+    border-bottom:1px solid rgba(0,0,0,.0975);
+    font-family: 'MuseoModerno', cursive;
+}

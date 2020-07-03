@@ -1,0 +1,80 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.photo{
+    width:40%;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid rgba(0,0,0,.0975);
+    max-width: 800px;
+    margin-bottom: 60px;
+    margin-top:-2%;
+}
+
+.photo__header{
+    padding:15px 20px;
+    display: flex;
+    align-items: center;
+    /*border-bottom:1px solid rgba(0,0,0,.0975);*/
+}
+.photo .photo__header i{
+    margin-left:73%;
+}
+.photo__head{
+   max-height:2%;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid rgb(255, 255, 255);
+}
+.photo__head p{
+    font-size:15px;
+    padding:17px 10px 0px 18px;
+    color:#999;
+}
+.photo__head i{
+    top:17px;
+    font-size:20px;
+    padding:17px 0px 0px 0px;
+    margin-left: 71%;
+}
+.photo__avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right:15px;
+}
+
+.photo__username{
+    position: relative;
+    display: block;
+    font-weight: 600;
+    margin-right:97%;
+}
+.photo__des{
+    color:#999;
+    padding:5px 5px 5px 0px;
+    font-size:12px;
+}
+.photo__d{
+    color:#999;
+    padding:5px 5px 5px 0px;
+    font-size:13px;
+}
+.photo__file-container{
+    display:flex;
+    border-color:white;
+    padding:0px 10px 10px 10px;
+    max-height: 60% !important;
+}
+
+.photo__file{
+    flex:50%;
+    padding:2px;
+    max-width:98% !important;
+    max-height:100% !important;
+}
+

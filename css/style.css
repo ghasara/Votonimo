@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import 'reset.css';
+@import 'global.css';
+@import 'preloader.css';
+@import 'navigation.css';
+@import 'footer.css';
+@import 'login.css';
+@import 'feed.css';
+@import 'feed_detail1.css';
+@import 'feed_left.css';
+@import 'feed_right.css';
+@import 'profile.css';
+@import 'footer_nav.css';
+@import 'iphone.css';
