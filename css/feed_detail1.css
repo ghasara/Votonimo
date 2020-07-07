@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     position:relative;
-    /*border-bottom:1px solid rgba(0,0,0,.0975);*/
+    border-bottom:1px solid rgba(0,0,0,.0975);
 }
 .photo_detail1o{
     width:50%;
@@ -82,11 +82,6 @@
     font-size:12px;
     left:0;
 }
-.photo__d{
-    color:#999;
-    padding:5px 5px 5px 0px;
-    font-size:12px;
-}
 .photo__file-contain_detail1{
     display:flex;
     border-color:white;
@@ -119,6 +114,7 @@
 }
 .photo__icon:nth-child(3){
     float:right;
+    font-size: 18px;
     margin-right:5px;
 }
 
@@ -168,7 +164,15 @@
     display: block;
     font-weight: 600;
     margin-bottom:10%;
-    margin-right:97%;;
+    margin-right:97%;
+}
+.photo__usernameoo{
+    float:left;
+    display: block;
+    font-weight: 600;
+    margin-top:4%;
+    margin-left:-184%;
+    font-size:20px;
 }
 .photo__header_detail1 i{
     position: absolute;
@@ -241,5 +245,9 @@
     font-weight:700;
     color:black;
     border-bottom:1px solid rgba(0,0,0,.0975);
-    font-family: 'MuseoModerno', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+.photo__description{
+    padding:10px 10px 0px 15px;
+    font-weight:600;
 }
