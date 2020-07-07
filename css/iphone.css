@@ -6,7 +6,9 @@
         /* Globals */
         body{
             padding-top: calc(80px);
-            font-size: 14px;    
+            font-size: 14px; 
+            max-width:100%;
+            overflow-x:hidden;   
         }
         .feed{
             margin-right:0%;
