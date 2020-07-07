@@ -220,3 +220,26 @@
 .popUp__button:hover{
     background-color: #efefef;
 }
+.navi_bar{
+    background-color:white;
+    max-height: 50px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    margin-top:60px;
+    border-top:1px solid rgba(0, 0, 0, 0.098);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0px 50px;
+    box-sizing: border-box;
+    z-index:2;
+}
+.navi_bar a{
+    float: left;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 25px;
+  width: 20%; /* Five links of equal widths */
+  text-align: center;
+}
