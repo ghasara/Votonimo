@@ -1,1 +1,1 @@
-https://votonimo.herokuapp.com/
+https://ghasara.github.io/Votonimo/
