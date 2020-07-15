@@ -13,8 +13,26 @@
         .feed{
             margin-right:0%;
         }
+        /* feed_detail */
         .feed_detail1{
             margin-right:0%;
+        }
+        .photo__usernameooo{
+            width:40%;
+            margin-top:8%;
+        }
+        .photo__usernameooo2{
+            width:40%;
+            margin-top:12%;
+        }
+        .photo__usernameoo{
+            
+            margin-left:-19.5%;
+        }
+    
+        /* Search */
+        .photo__usernameo123{
+            margin-left:0%;
         }
         /* Feed left */
         .feed_left{
@@ -104,6 +122,19 @@
         .photo__time-ago{
             border:none;
         }
+        .edit-profile{
+            margin-right:0%;
+        }
+        .profile-form{
+            width:100%;
+            border:none;
+            margin-top:-5%;
+            margin-bottom: 35px;
+            padding:30px;
+        }
+        .edit-profile__form{
+            padding-left:10px;
+            }
         /* Footer */
         .footer{
             display: none;
@@ -195,4 +226,21 @@
         .profile-picture__overlay{
             display: none;
         }
+        .edit-profile__input,
+.edit-profile__textarea,
+.edit-profile__form-row select{
+    border-radius: 3px;
+    padding:7px 10px;
+    border:1px solid rgba(0,0,0,.0975);
+    width:200px;
+    font-size: 16px;
+    resize: vertical;
+    background-color: white;
+    margin-right:20px;
+}
+.profile-form__header{
+    margin-left:50px;
+}
+
+
     }
