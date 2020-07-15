@@ -1,0 +1,92 @@
+.edit-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:10%;
+}
+
+.profile-form{
+    width:50%;
+    max-width: 800px;
+    background-color: white;
+    border:1px solid rgba(0,0,0,.0975);
+    border-radius: 5px;
+    padding: 35px 0;
+}
+
+.profile-form__header{
+    display: flex;
+    align-items: center;
+    margin-left:125px;
+    margin-bottom: 40px;
+}
+
+.profile-form__avatar{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    margin-right: 35px;
+}
+
+.profile-form__title{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.edit-profile__form{
+    padding-left:50px;
+}
+
+.edit-profile__form-row{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.edit-profile__label{
+    width:120px;
+    display: block;
+    font-weight: 600;
+    text-align: right;
+    margin-right:35px;
+}
+
+.edit-profile__input,
+.edit-profile__textarea,
+.edit-profile__form-row select{
+    border-radius: 3px;
+    padding:7px 10px;
+    border:1px solid rgba(0,0,0,.0975);
+    width:300px;
+    font-size: 16px;
+    resize: vertical;
+    background-color: white;
+}
+
+.edit-profile__form-row select{
+    width:120px;
+    height:30px;
+}
+
+label[for="similar"]{
+    width: 400px;
+    margin-left: 30px;
+}
+
+label[for="similar"] a{
+    color:#337aff;
+}
+
+input[type="submit"]{
+    background-color: #337aff;
+    color:white;
+    border:0;
+    padding:5px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-right:137px;
+}
+.submit_space{
+    margin-right:100px;
+}
