@@ -16,6 +16,17 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head> 
     <body>
+        <style>
+            .photo__icon{
+                margin-top:-4%;
+            }
+            @media only screen
+    and (min-width: 220px)
+    and (max-width: 1300px){
+            .photo__icon{
+               margin-top:-10%;
+            }}
+        </style>
         <!--<div class="loader">
             <img src="images/preloader.gif" alt="Loading..." />
         </div>-->
@@ -57,6 +68,7 @@
         </nav>
         <main class="feed_detail1">
             <section class="photo_detail1">
+                <a href="feed_detail3.html"><span class="fa fa-arrow-left" style="color:black;margin:10px 0px 0px 10px;font-weight:300;font-size:larger"></span></a>
                 <header class="photo__header_detail1">
                     <img class="photo__avatar_detail1" src="..\images\avatar4.jpg">
                     <span class="photo__username1">GrayJhon</span>
@@ -84,21 +96,15 @@
                     <a href="#"><img class="photo__file_detail1" src="..\images\image14.jpeg"></a>
                 </div>
                 <div class="photo__info">
-                    <div class="photo__icons">
-                        <span class="photo__icon">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                        </span>
-                        <span class="photo__icon">135 Likes</span>
-                        <!--<span class="photo__icon">
-                            <i class="fa fa-share-square-o"></i>
-                        </span>-->
-                        <span class="photo__icon">
+                    <div class="photo__icons" style="position:relative;">
+                        
+                        <span class="photo__icon" style="right:0;position:absolute;">
                             <a href="https://www.3retro.com/international/national/national/457_Brasil-1970-World-Cup-Final-shirt.html"><i class="fa fa-credit-card" style="font-size:25px;color:black;"></i></a>
                             
                         </span>
                     </div>
                     <!--<span class="photo__likes">135 Likes</span>-->
-                    <ul class="photo__comments">
+                    <!--<ul class="photo__comments">
                         <li class="photo__comment">
                             <span class="photo__comment-author">serra</span>wow this is great!
                             <span class="photo__time-ago">12 hours ago</span>
@@ -111,7 +117,7 @@
                     <div class="login__div"><a href="#" style="color:#999;">More</a></div>
                     <div class="photo__add-comment-container">
                         <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="photo_detail1 tab-pane fade" id="two" >
@@ -129,15 +135,9 @@
                     <a href="#"><img class="photo__file_detail1" src="..\images\image01.jpg"></a>
                 </div>
                 <div class="photo__info">
-                    <div class="photo__icons">
-                        <span class="photo__icon">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                        </span>
-                        <span class="photo__icon">135 Likes</span>
-                        <!--<span class="photo__icon">
-                            <i class="fa fa-share-square-o"></i>
-                        </span>-->
-                        <span class="photo__icon">
+                    <div class="photo__icons" style="position:relative;">
+                        
+                        <span class="photo__icon" style="right:0;position:absolute;">
                             <!--<i class="fa fa-google-wallet" aria-hidden="true"></i>-->
                             <a href="https://www.uksoccershop.com/p-29429/2013-14-Brazil-Home-Shirt-(Zico-10).html
                             "><i class="fa fa-credit-card" style="font-size:25px;color:black;"></i></a>
@@ -145,7 +145,7 @@
                         </span>
                     </div>
                     <!--<span class="photo__likes">135 Likes</span>-->
-                    <ul class="photo__comments">
+                    <!--ul class="photo__comments">
                         <li class="photo__comment">
                             <span class="photo__comment-author">serra</span>wow this is great!
                             <span class="photo__time-ago">12 hours ago</span>
@@ -158,7 +158,7 @@
                     <div class="login__div"><a href="#" style="color:#999;">More</a></div>
                     <div class="photo__add-comment-container">
                         <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             
@@ -166,28 +166,26 @@
             
 
             <section class="photo_detail1o">
-                <div class="photo__user">You may also like:</div>
+                <div class="photo__user">Available Products</div>
                 <ul class="nav">
-            <li class="active"><a data-toggle="tab" href="#one" style="border-bottom:1px solid rgba(0,0,0,.0975);color:black">
+            <li class="active">
                     <header class="photo__header_detail12345" >
-                    <img class="photo__avatar_detail1o" src="..\images\image14.jpeg">
-                    <span class="photo__usernameo">Brasil&nbsp;1970&nbsp;World&nbsp;Cup</span>
-                    <span class="photo__usernameoo " style="color:rgb(0, 0, 0);font-size: 32px;font-weight:700">V</span>
+                    <a data-toggle="tab" href="#one" style="color:black"><img class="photo__avatar_detail12345" src="..\images\image14.jpeg"></a>
+                    <span class="photo__usernameo2"><a href="https://www.3retro.com/international/national/national/457_Brasil-1970-World-Cup-Final-shirt.html" style="color:black">Brasil&nbsp;1970&nbsp;World&nbsp;Cup</a></span>
+                    <span class="photo__usernameoo2" style="color:rgb(0, 0, 0);font-size: 32px;font-weight:700">V</span>
                     <span class="photo__usernameooo2">This is area of product description where products provide their info.</span>
-                    <i style="font-weight:500;">50%</i>
-                    <i class="">50%</i> 
+                    <i style="font-weight:500;">50%</i> 
                 </header>
-            </a></li>
-            <li><a data-toggle="tab" href="#two" style="border-bottom:1px solid rgba(0,0,0,.0975);color:black">
+            </li>
+            <li>
                 <header class="photo__header_detail12345">
-                    <img class="photo__avatar_detail1o" src="..\images\image01.jpg">
-                    <span class="photo__usernameo">Brazil&nbsp;Home&nbsp;shirt</span>
-                    <span class="photo__usernameoo " style="font-size: 32px;font-weight:700">V</span>
+                    <a data-toggle="tab" href="#two" style="color:black"><img class="photo__avatar_detail12345" src="..\images\image01.jpg"></a>
+                    <span class="photo__usernameo2"><a href="https://www.uksoccershop.com/p-29429/2013-14-Brazil-Home-Shirt-(Zico-10).html" style="color:black">Brazil&nbsp;Home&nbsp;shirt</a></span>
+                    <span class="photo__usernameoo2 " style="font-size: 32px;font-weight:700">V</span>
                     <span class="photo__usernameooo2">This is area of product description where products provide their info.</span>
-                    <i class="">50%</i>
                     <i style="font-weight:500;"> 50%</i>
                 </header>
-            </a></li>
+            </li>
         </ul>
                 <!--<header class="photo__header_detail1o">
                    <a href="feed_detail4.html"><img class="photo__avatar_detail1o" src="..\images\watch.jpg"></a>
