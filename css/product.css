@@ -1,0 +1,45 @@
+.photo__avatar_detail12345{
+    height: 110px;
+    width: 110px;
+    margin:15px;
+}
+.photo__header_detail12345{
+    padding:10px 10px 10px 3.5px;
+    display: flex;
+    align-items: center;
+    position:relative;
+}
+
+.photo__usernameo2{
+    width:10%;
+    font-size:17px;
+    display: block;
+    font-weight: 600;
+    align-items: center;
+    margin-bottom:60px;
+    margin-left:8%;
+    color:black;
+}
+.photo__usernameoo2{
+    float:left;
+    color:rgb(211, 211, 211);
+    display: block;
+    font-weight: 600;
+    margin-bottom:0%;
+    margin-left:-16.5%;
+    font-size:20px;
+}
+.photo__usernameooo2{
+    width:60%;
+    display: block;
+    font-weight: 500;
+    margin-left:4%;
+    margin-top:3%;
+}
+.photo__header_detail12345 i{
+    position: absolute;
+    right:0;
+    margin-right:3%;
+    margin-bottom:5px;
+    
+}
