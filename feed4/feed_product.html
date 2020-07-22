@@ -16,6 +16,17 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head> 
     <body>
+        <style>
+            .photo__icon{
+                margin-top:-4%;
+            }
+            @media only screen
+    and (min-width: 220px)
+    and (max-width: 1300px){
+            .photo__icon{
+               margin-top:-10%;
+            }}
+        </style>
         <!--<div class="loader">
             <img src="images/preloader.gif" alt="Loading..." />
         </div>-->
@@ -57,6 +68,7 @@
         </nav>
         <main class="feed_detail1">
             <section class="photo_detail1">
+                <a href="feed_detail4.html"><span class="fa fa-arrow-left" style="color:black;margin:10px 0px 0px 10px;font-weight:300;font-size:larger"></span></a>
                 <header class="photo__header_detail1">
                     <img class="photo__avatar_detail1" src="..\images\avatar4.jpg">
                     <span class="photo__username1">GrayJhon</span>
@@ -77,28 +89,24 @@
                 </header>-->
                 <header class="photo__header1">
                     <div class="photo__header-column1">
-                        <p class="photo__d1">1986 Argentina Home retro Maradona 10 shirt </p>
+                        <p class="photo__d1">1986 Argentina Home retro Maradona 10 shirt</p>
                     </div>
                 </header>
                 <div class="photo__file-contain_detail1">
                     <a href="#"><img class="photo__file_detail1" src="..\images\image11.jpg"></a>
                 </div>
                 <div class="photo__info">
-                    <div class="photo__icons">
-                        <span class="photo__icon">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                        </span>
-                        <span class="photo__icon">135 Likes</span>
+                    <div class="photo__icons" style="position:relative;">
                         <!--<span class="photo__icon">
-                            <i class="fa fa-share-square-o"></i>
-                        </span>-->
-                        <span class="photo__icon">
-                            <a href="https://www.subsidesports.com/uk/1986-argentina-home-retro-maradona-10-shirt?wgu=264444_196673_15942102801886_617d48ef95&wgexpiry=1601986280&source=webgains&siteid=196673"><i class="fa fa-credit-card" style="font-size:25px;color:black;"></i></a>
-                            
+                            <i class="fa fa-heart-o heart fa-lg"></i>
+                        </span>
+                        <span class="photo__icon">135 Likes</span>-->
+                        <span class="photo__icon" style="right:0;position:absolute;">
+                            <a href="https://www.subsidesports.com/uk/1986-argentina-home-retro-maradona-10-shirt?wgu=264444_196673_15942102801886_617d48ef95&wgexpiry=1601986280&source=webgains&siteid=196673"><i class="fa fa-credit-card" style="font-size:25px;color:black;"></i></a>    
                         </span>
                     </div>
                     <!--<span class="photo__likes">135 Likes</span>-->
-                    <ul class="photo__comments">
+                    <!--<ul class="photo__comments">
                         <li class="photo__comment">
                             <span class="photo__comment-author">serra</span>wow this is great!
                             <span class="photo__time-ago">12 hours ago</span>
@@ -108,10 +116,10 @@
                             <span class="photo__time-ago">9 hours ago</span>
                         </li>
                     </ul>
-                    <div class="login__div"><a href="#" style="color:#999;">More</a></div>
+                    <div class="login__div"><a href="#" style="color:#999;">Comments</a></div>
                     <div class="photo__add-comment-container">
                         <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="photo_detail1 tab-pane fade" id="two" >
@@ -129,23 +137,15 @@
                     <a href="#"><img class="photo__file_detail1" src="..\images\image12.jpeg"></a>
                 </div>
                 <div class="photo__info">
-                    <div class="photo__icons">
-                        <span class="photo__icon">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                        </span>
-                        <span class="photo__icon">135 Likes</span>
-                        <!--<span class="photo__icon">
-                            <i class="fa fa-share-square-o"></i>
-                        </span>-->
-                        <span class="photo__icon">
+                    <div class="photo__icons" style="position:relative;">
+                        <span class="photo__icon" style="right:0;position:absolute;">
                             <!--<i class="fa fa-google-wallet" aria-hidden="true"></i>-->
                             <a href="https://www.amazon.co.uk/FIFA-World-Cup-2018-replica/dp/B077DCZX37
-                            "><i class="fa fa-credit-card" style="font-size:25px;color:black;"></i></a>
-                            
+                            "><i class="fa fa-credit-card" style="font-size:25px;color:black;"></i></a>  
                         </span>
                     </div>
                     <!--<span class="photo__likes">135 Likes</span>-->
-                    <ul class="photo__comments">
+                    <!--<ul class="photo__comments">
                         <li class="photo__comment">
                             <span class="photo__comment-author">serra</span>wow this is great!
                             <span class="photo__time-ago">12 hours ago</span>
@@ -155,10 +155,10 @@
                             <span class="photo__time-ago">9 hours ago</span>
                         </li>
                     </ul>
-                    <div class="login__div"><a href="#" style="color:#999;">More</a></div>
+                    <div class="login__div"><a href="#" style="color:#999;">Comments</a></div>
                     <div class="photo__add-comment-container">
                         <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="photo_detail1 tab-pane fade" id="three">
@@ -176,23 +176,15 @@
                     <a href="#"><img class="photo__file_detail1" src="..\images\hii.jpg"></a>
                 </div>
                 <div class="photo__info">
-                    <div class="photo__icons">
-                        <span class="photo__icon">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                        </span>
-                        <span class="photo__icon">135 Likes</span>
-                        <!--<span class="photo__icon">
-                            <i class="fa fa-share-square-o"></i>
-                        </span>-->
-                        <span class="photo__icon">
+                    <div class="photo__icons" style="position:relative;">
+                        <span class="photo__icon" style="right:0;position:absolute;">
                             <!--<i class="fa fa-google-wallet" aria-hidden="true"></i>-->
                             <a href="https://www.uksoccershop.com/p-76371/Score-Draw-England-World-Cup-1990-Home-Shirt-(Lineker-10).html?currency=GBP&gcountry=UK&ovId=3432&gclid=Cj0KCQjw6ar4BRDnARIsAITGzlBwanVYMpSrDFxcNQdI6JDth4SLGPElvcAQBwvBdCv1C5tWnqHPfqcaAvhvEALw_wcB
-                            "><i class="fa fa-credit-card" style="font-size:25px;color:black;"></i></a>
-                            
+                            "><i class="fa fa-credit-card" style="font-size:25px;color:black;"></i></a>  
                         </span>
                     </div>
                     <!--<span class="photo__likes">135 Likes</span>-->
-                    <ul class="photo__comments">
+                    <!--<ul class="photo__comments">
                         <li class="photo__comment">
                             <span class="photo__comment-author">serra</span>wow this is great!
                             <span class="photo__time-ago">12 hours ago</span>
@@ -202,50 +194,47 @@
                             <span class="photo__time-ago">9 hours ago</span>
                         </li>
                     </ul>
-                    <div class="login__div"><a href="#" style="color:#999;">More</a></div>
+                    <div class="login__div"><a href="#" style="color:#999;">Comments</a></div>
                     <div class="photo__add-comment-container">
                         <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </section>
             
 
             <section class="photo_detail1o">
-                <div class="photo__user">You may also like:</div>
+                <div class="photo__user">Available Products</div>
                 <ul class="nav">
-            <li class="active"><a data-toggle="tab" href="#one" style="border-bottom:1px solid rgba(0,0,0,.0975);color:black">
+            <li class="active">
                     <header class="photo__header_detail12345" >
-                    <img class="photo__avatar_detail1o" src="..\images\image11.jpg">
-                    <span class="photo__usernameo">1986&nbsp;Argentina&nbsp;Home</span>
-                    <span class="photo__usernameoo " style="color:rgb(0, 0, 0);font-size: 32px;font-weight:700">V</span>
+                    <a data-toggle="tab" href="#one" style="color:black"><img class="photo__avatar_detail12345" src="..\images\image11.jpg"></a>
+                    <span class="photo__usernameo2"><a href="https://www.subsidesports.com/uk/1986-argentina-home-retro-maradona-10-shirt?wgu=264444_196673_15942102801886_617d48ef95&wgexpiry=1601986280&source=webgains&siteid=196673" style="color:black">1986&nbsp;Argentina&nbsp;Home</a></span>
+                    <span class="photo__usernameoo2" style="color:rgb(0, 0, 0);font-size: 32px;font-weight:700">V</span>
                     <span class="photo__usernameooo2">This is area of product description where products provide their info.</span>
                     <i style="font-weight:500;">33%</i>
-                    <i class="">33%</i> 
                 </header>
-            </a></li>
-            <li><a data-toggle="tab" href="#two" style="border-bottom:1px solid rgba(0,0,0,.0975);color:black">
+            </li>
+            <li>
                 <header class="photo__header_detail12345">
-                    <img class="photo__avatar_detail1o" src="..\images\image12.jpeg">
-                    <span class="photo__usernameo">Fifa&nbsp;World&nbsp;Cup&nbsp;2018</span>
-                    <span class="photo__usernameoo " style="font-size: 32px;font-weight:700">V</span>
+                    <a data-toggle="tab" href="#two" style="color:black"><img class="photo__avatar_detail12345" src="..\images\image12.jpeg"></a>
+                    <span class="photo__usernameo2"><a href="https://www.amazon.co.uk/FIFA-World-Cup-2018-replica/dp/B077DCZX37" style="color:black">Fifa&nbsp;World&nbsp;Cup&nbsp;2018</a></span>
+                    <span class="photo__usernameoo2" style="font-size: 32px;font-weight:700">V</span>
                     <span class="photo__usernameooo2">This is area of product description where products provide their info.</span>
-                    <i class="">35%</i>
-                    <i style="font-weight:500;"> 35%</i>
+                    <i style="font-weight:500;">35%</i>
                 </header>
-            </a></li>
-            <li><a data-toggle="tab" href="#three" style="border-bottom:1px solid rgba(0,0,0,.0975);color:black">
+            </li>
+            <li>
                 <header class="photo__header_detail12345">
-                    <img class="photo__avatar_detail1o" src="..\images\hii.jpg">
-                    <span class="photo__usernameo">Gary&nbsp;Lineker&nbsp;retro</span>
-                    <span class="photo__usernameoo " style="font-size: 32px;font-weight:700">V</span>
+                    <a data-toggle="tab" href="#three" style="color:black"><img class="photo__avatar_detail12345" src="..\images\hii.jpg"></a>
+                    <span class="photo__usernameo2"><a href="https://www.uksoccershop.com/p-76371/Score-Draw-England-World-Cup-1990-Home-Shirt-(Lineker-10).html?currency=GBP&gcountry=UK&ovId=3432&gclid=Cj0KCQjw6ar4BRDnARIsAITGzlBwanVYMpSrDFxcNQdI6JDth4SLGPElvcAQBwvBdCv1C5tWnqHPfqcaAvhvEALw_wcB" style="color:black">Gary&nbsp;Lineker&nbsp;retro</a></span>
+                    <span class="photo__usernameoo2" style="font-size: 32px;font-weight:700">V</span>
                     <span class="photo__usernameooo2">This is area of product description where products provide their info.</span>
-                    <i class="">32%</i>
-                    <i style="font-weight:500;"> 32%</i>
+                    <i style="font-weight:500;">32%</i>
                 </header>
-            </a></li>
+            </li>
         </ul>
-                <!--<header class="photo__header_detail1o">
+                <!--<header class="photo__header_detail1o" Fifa&nbsp;World&nbsp;Cup&nbsp;2018  Gary&nbsp;Lineker&nbsp;retro>
                    <a href="feed_detail4.html"><img class="photo__avatar_detail1o" src="..\images\watch.jpg"></a>
                    <span class="photo__usernameo">Low&nbsp;Cost&nbsp;Watch</span>
                    <span class="photo__usernameoo fa fa-vimeo"></span>
