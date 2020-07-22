@@ -15,9 +15,11 @@
     margin-top:-2%;
 }
 
+
 .photo__header{
     padding:15px 15px;
     display: flex;
+    position:relative;
     align-items: center;
     border-bottom:1px solid rgba(0,0,0,.0975);
 }
@@ -29,7 +31,9 @@
     /*border-bottom:1px solid rgba(0,0,0,.0975);*/
 }
 .photo .photo__header i{
-    margin-left:73%;
+    position:absolute;
+    right:0;
+    margin-right:20px;
 }
 .photo__head{
    max-height:2%;
@@ -74,7 +78,7 @@
 .photo__d1{
     color:rgb(85, 85, 85);
     padding:5px 5px 5px 0px;
-    font-size:15px;
+    font-size:18px;
     font-weight:600;
     font-family: 'Oxygen', sans-serif;
 }
@@ -84,18 +88,37 @@
     padding:0px 10px 10px 10px;
     max-height: 60% !important;
 }
+
+.photo__file-containerer{
+    display:flex;
+    position:relative;
+    border-color:white;
+    padding:6px 6px 6px 6px;
+    max-height: 60% !important;
+}
+.photo__file-containerer i{
+    position: absolute;
+    right:0;
+    margin-top:-15px;
+    margin-right:13px;
+}
 .photo__file-container1{
     display:flex;
     border-color:white;
     padding:0px 10px 10px 10px;
     max-height: 60% !important;
 }
-
 .photo__file{
     flex:50%;
     padding:2px;
-    max-width:98% !important;
-    max-height:100% !important;
+    width:98% !important;
+    height:100% !important;
+}
+.photo__files{
+    flex:40%;
+    padding:2px;
+    width:250px !important;
+    height:250px !important;
 }
 .photo_11{
     border:1px solid rgb(226, 226, 226);
