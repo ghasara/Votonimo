@@ -1,7 +1,5 @@
-
-
 @media only screen
-    and (min-width: 320px)
+    and (min-width: 220px)
     and (max-width: 1300px){
         /* Globals */
         body{
@@ -9,6 +7,13 @@
             font-size: 14px; 
             max-width:100%;
             overflow-x:hidden;   
+        }
+        /*feed*/
+        .photo__files{ 
+            flex:40%;
+            padding:2px;
+            width:336px !important;
+            height:320px !important;
         }
         .feed{
             margin-right:0%;
@@ -23,13 +28,16 @@
         }
         .photo__usernameooo2{
             width:40%;
+            margin-left:2%;
             margin-top:12%;
         }
         .photo__usernameoo{
             
             margin-left:-19.5%;
         }
-    
+        .photo__usernameoo2{
+            margin-left:-18%;
+        }
         /* Search */
         .photo__usernameo123{
             margin-left:0%;
