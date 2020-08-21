@@ -1,5 +1,5 @@
 @media only screen
-    and (min-width: 220px)
+    and (min-width: 100px)
     and (max-width: 1300px){
         /* Globals */
         body{
@@ -10,10 +10,13 @@
         }
         /*feed*/
         .photo__files{ 
-            flex:40%;
-            padding:2px;
-            width:336px !important;
-            height:320px !important;
+            flex:50%;
+            padding:0px;
+            width:90px !important;
+            height:90px !important;
+        }
+        .photo__file-container{
+            margin-bottom: 7px;
         }
         .feed{
             margin-right:0%;
@@ -25,15 +28,20 @@
         .photo__usernameooo{
             width:40%;
             margin-top:8%;
+            margin-left:2.5%;
         }
         .photo__usernameooo2{
             width:40%;
-            margin-left:2%;
+            margin-left:4%;
             margin-top:12%;
         }
         .photo__usernameoo{
             
-            margin-left:-19.5%;
+            margin-left:-23%;
+        }
+        .photo__usernameoo:hover{
+            
+            margin-left:-23%;
         }
         .photo__usernameoo2{
             margin-left:-18%;
@@ -57,11 +65,11 @@
             padding:0 10px;
         }
         .navigation__search-container{
-            margin-left:1%;
+            margin-left:2.5%;
             position: relative;
         }
         .navigation__search-container input{
-            width:160px;
+            width:100%;
             
         }
         .navigation__icons{
@@ -87,7 +95,7 @@
         .photo{
             width:100%;
             border:none;
-            margin-top:-5%;
+            margin-top:-20px;
             margin-bottom: 35px;
         }
         .photo .photo__header i{
@@ -105,7 +113,7 @@
         .photo_detail1{
             width:100%;
             border:none;
-            margin-top:-5%;
+            margin-top:-20px;
             margin-bottom: 35px;
         }
         .photo .photo__header_detail1 i{
@@ -116,7 +124,7 @@
         .photo_detail1o{
             width:100%;
             border:none;
-            margin-top:-5%;
+            margin-top:-20px;
             margin-bottom: 35px;
         }
         .photo .photo__header_detail1o i{
@@ -136,13 +144,16 @@
         .profile-form{
             width:100%;
             border:none;
-            margin-top:-5%;
+            margin-top:-20px;
             margin-bottom: 35px;
             padding:30px;
         }
         .edit-profile__form{
             padding-left:10px;
             }
+            .edit-profile__form1{
+                padding-left:10px;
+                }
         /* Footer */
         .footer{
             display: none;
@@ -163,7 +174,7 @@
         }
         .signup{
             width:90%;
-            margin-top:50px;
+            margin-top:10px;
         }
         .login__column{
             width: 100%;
@@ -174,6 +185,9 @@
         .login__column:last-child{
             margin-left:0
         }
+        .edit-profile__form-row1{
+            margin-top:0%;
+        }
         /*.login__section{
             background-color: transparent;
             border:none;
@@ -183,8 +197,10 @@
             margin-right:0px;
         }
         .profile{
-            width: 90%;
+            width: 100%;
             margin:0 auto;
+            padding:40px 0px;
+            border :none;
         }
         .profile__header{
             margin-bottom: 0;
@@ -212,16 +228,23 @@
         }
         .profile__bio{
             order:2;
+            margin-left:-35%;
+            margin-top:5%;
+        }
+        .profile__bio0{
+            order:2;
         }
         .profile__numbers{
             order:3;
             margin-top: 20px;
             width:100%;
+            margin-left:-25%;
         }
         .profile__numbers li{
             font-size: 14px;
             text-align: center;
             color:#999;
+            margin-right:60px;
         }
         .profile__number{
             color:black;
@@ -249,6 +272,74 @@
 .profile-form__header{
     margin-left:50px;
 }
-
-
+    }
+    @media only screen
+    and (min-width: 200px)
+    and (max-width: 270px){
+        .photo__files{ 
+            flex:50%;
+            padding:0px;
+            width:60px !important;
+            height:60px !important;
+        }
+    }
+    @media only screen
+    and (min-width: 270px)
+    and (max-width: 315px){
+        .photo__files{ 
+            flex:50%;
+            padding:0px;
+            width:70px !important;
+            height:70px !important;
+        }
+    }
+    @media only screen
+    and (min-width: 315px)
+    and (max-width: 350px){
+        .photo__files{ 
+            flex:50%;
+            padding:0px;
+            width:80px !important;
+            height:80px !important;
+        }
+    }
+    @media only screen
+    and (min-width: 400px)
+    and (max-width: 500px){
+        .photo__files{ 
+            flex:50%;
+            padding:0px;
+            width:110px !important;
+            height:110px !important;
+        }
+    }
+    @media only screen
+    and (min-width: 500px)
+    and (max-width: 600px){
+        .photo__files{ 
+            flex:50%;
+            padding:0px;
+            width:140px !important;
+            height:140px !important;
+        }
+    }
+    @media only screen
+    and (min-width: 600px)
+    and (max-width: 700px){
+        .photo__files{ 
+            flex:50%;
+            padding:0px;
+            width:140px !important;
+            height:140px !important;
+        }
+    }
+    @media only screen
+    and (min-width: 700px)
+    and (max-width: 1300px){
+        .photo__files{ 
+            flex:50%;
+            padding:0px;
+            width:158px !important;
+            height:158px !important;
+        }
     }

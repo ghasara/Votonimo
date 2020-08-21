@@ -88,7 +88,7 @@
     margin-right:5px;
 }
 .photo__avatar_detail1234{
-    height: 110px;
+    height: 90px;
     width: 90px;
     margin-right:5px;
 }
@@ -189,23 +189,39 @@
     font-weight: 600;
     align-items: center;
     margin-bottom:60px;
-    margin-left:10%;
+    margin-left:12%;
     color:black;
 }
 .photo__usernameoo{
     float:left;
-    color:rgb(211, 211, 211);
+    color:rgb(180, 180, 180);
     display: block;
     font-weight: 600;
     margin-bottom:0%;
-    margin-left:-17%;
+    margin-left:-19%;
     font-size:20px;
+    border:5px solid rgb(180, 180, 180);
+    padding:0px 3px;
+    border-radius: 8px; 
+}
+.photo__usernameoo:hover{
+    float:left;
+    color:rgb(0, 0, 0);
+    display: block;
+    font-weight: 600;
+    margin-bottom:0%;
+    margin-left:-19%;
+    font-size:20px;
+    border:5px solid rgb(0, 0, 0);
+    padding:0px 3px;
+    border-radius: 8px;
+       
 }
 .photo__usernameooo{
     width:60%;
     display: block;
     font-weight: 500;
-    margin-left:4%;
+    margin-left:3.5%;
     margin-top:3%;
 }
 .photo__usernameo123{

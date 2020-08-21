@@ -3,6 +3,7 @@
 @import 'global.css';
 @import 'preloader.css';
 @import 'navigation.css';
+@import 'hamburger.css';
 @import 'footer.css';
 @import 'button.css';
 @import 'feed.css';
@@ -13,5 +14,6 @@
 @import 'profile.css';
 @import 'footer_nav.css';
 @import 'edit-profile.css';
+@import 'upload-post.css';
 @import 'login.css';
 @import 'iphone.css';

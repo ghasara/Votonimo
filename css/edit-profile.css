@@ -43,6 +43,12 @@
     align-items: center;
 }
 
+.edit123{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
 .edit-profile__label{
     width:120px;
     display: block;
@@ -88,5 +94,5 @@ input[type="submit"]{
     margin-right:137px;
 }
 .submit_space{
-    margin-right:100px;
+    margin-right:180px;
 }

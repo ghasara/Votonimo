@@ -20,7 +20,7 @@ $(document).ready(function(){
     })
 
     cancelPopUp.click(function(){
-        popUp.slideUp(500)
+        popUp.slideUp(500);
     })
 
 })
@@ -113,46 +113,47 @@ $(document).ready(function(){
                 }
               }
             }
-            $(document).ready(function() {
-              $("#owl-demo1").owlCarousel({
-              items : 2,
-              itemsDesktop : [1199,2],
-      itemsDesktopSmall : [979,2]
-              });
-          });
-          $(document).ready(function() {
-              $("#owl-demo2").owlCarousel({
-              items : 2,
-              itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
-              });
-          });
-          $(document).ready(function() {
-            $("#owl-demo3").owlCarousel({
-            items : 2,
-            itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
-            });
-        });
-        $(document).ready(function() {
-            $("#owl-demo4").owlCarousel({
-            items : 2,
-            itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
-            });
-        });
-        $(document).ready(function() {
-          $("#owl-demo5").owlCarousel({
-          items : 2,
-          itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
-          });
-      });
-      $(document).ready(function() {
-          $("#owl-demo6").owlCarousel({
-          items : 2,
-          itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
-          });
-      });
             
+        var mySwiper = new Swiper('#multiplephotos', {
+            direction: 'horizontal',
+            loop: false,
+            spaceBetween: 30,
+            breakpoints: {
+                100: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                200: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 10,
+                },
+                375: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 10,
+                },
+                425: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 10,
+                },
+                756: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 80,
+                },
+                1024: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 80,
+                },
+                
+            }
+        });
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+      
+      
+    
+           
