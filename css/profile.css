@@ -177,9 +177,9 @@
     }
 }*/
 
-.fa-heart{
+/*.fa-heart{
     animation:bump .6s infinite linear;
-}
+}*/
 
 @keyframes bump{
     to{

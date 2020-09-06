@@ -47,7 +47,7 @@
             </a>
             <div class="hide_this">
                 <a href="profile.php">
-                    <img class="photo__vata footer_nav__" src="images\first.jpg">
+                    <img class="photo__vata footer_nav__" src="image\<?php echo$_SESSION['profilephoto'];?>">
                 </a>
                 <a href="feed.php" class="footer_nav__" style="margin-left:40px" ;="">
                    <i class="fa fa-home"></i>
@@ -387,11 +387,11 @@
             <section class="photos">
                 <header class="photo__headerr">
                     <div class="photo__header-col">
-                        <img class="photo__avatarr" src="images\74.jpg">
+                        <img class="photo__avatarr" src="image\<?php echo$_SESSION['profilephoto'];?>">
                     </div>
                     <div class="photo__header-col">
-                        <a href="user-profile/user_profile.php" class="photo__usernam">Mr.john31</a>
-                        <p class="photo__des">John cage</p>
+                        <a href="profile.php" class="photo__usernam"><?php echo$_SESSION['yourname']?></a>
+                        <p class="photo__des"><?php echo$_SESSION['username']?></p>
                     </div>
                 </header>
                 <header class="photo__headerrr">

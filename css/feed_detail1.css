@@ -330,12 +330,9 @@
 .heart-red{
     color:red;
 }
-.fa-heart .fa-thumbs{
+/*.fa-heart .fa-thumbs{
     animation: bump .6s infinite linear;
-}
-.thumb-red{
-    color:blue;
-}
+}*/
 .photo__user{
     padding:12px;
     font-size:17px;

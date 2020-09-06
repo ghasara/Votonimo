@@ -10,7 +10,6 @@ $(document).ready(function(){
         $(this).toggleClass('fa-heart-o');
         $(this).toggleClass('heart-red fa-heart');
     })
-
     cog.click(function(){
         popUp.fadeIn(500);
     })
@@ -153,6 +152,7 @@ $(document).ready(function(){
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
         }
+        
       
       
     

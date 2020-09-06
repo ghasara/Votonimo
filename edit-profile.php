@@ -19,6 +19,50 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
     </head>
     <body>
+    <style>
+            #imageUpload
+{
+    display: none;
+}
+
+#profileImage
+{
+    cursor: pointer;
+}
+
+#profile-container {
+    margin-left:30%;
+    margin-top:5%;
+    margin-bottom:5%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+@media only screen
+    and (min-width: 330px)
+    and (max-width: 400px){
+#profile-container {
+    margin-left:20%;
+}
+    }
+    @media only screen
+    and (min-width: 250px)
+    and (max-width: 330px){
+#profile-container {
+    margin-left:15%;
+}
+    }
+
+#profile-container img {
+    width: 150px;
+    height: 150px;
+}
+            </style>
         <nav class="navigation">
             <a href="feed.php">
                 <p style="font-family: 'Roboto', sans-serif;font-size:30px;margin-left: 3%;color:black">Votonimo</p>
@@ -27,7 +71,7 @@
                 <a href="profile.php">
                     <img
                         class="photo__vata footer_nav__" 
-                        src="images/first.jpg"
+                        src="image\<?php echo$_SESSION['profilephoto'];?>"
                     />
                 </a>
                 <a href="feed.php" class="footer_nav__" style="margin-left:40px";>
@@ -77,15 +121,16 @@
                     </div>
                     <h2 class="profile-form__title">&nbsp;Profile-Setting</h2>
                 </header>
-                <form action="#" class="">
-                    <div class="edit123" style="margin-left:30%;margin-bottom:30px;">
-                        <img src="image\<?php echo$_SESSION['profilephoto'];?>" class="profile__avatar" >
-                    </div>
+                <form method="Post" action="edit-profile.php" class="">
+                    <div id="profile-container" class="edit123" style="margin-left:30%;margin-bottom:30px;">
+                            <image id="profileImage" src="image\<?php echo$_SESSION['profilephoto'];?>" />
+                        </div>
+                        <input id="imageUpload" type="file" name="profileImage" value="">
                     <div class="edit-profile__form-row">
                         <label for="name" class="edit-profile__label">Your Name
                         </label>
                         <input 
-                            id="name"
+                            name="name"
                             type="text"
                             value="<?php echo$_SESSION['yourname'];?>"
                             class="edit-profile__input"
@@ -97,7 +142,7 @@
                         </label>
                         <input 
                             type="text"
-                            id="username"
+                            name="username"
                             value="<?php echo$_SESSION['username'];?>"
                             class="edit-profile__input"
                         />
@@ -108,8 +153,9 @@
                         </label>
                         <input
                             type="url"
+                            name="website"
                             id="website"
-                            value=""
+                            value="<?php echo$_SESSION['website'];?>"
                             class="edit-profile__input"
                         />
                     </div>
@@ -118,7 +164,7 @@
                             Bio
                         </label>
                         <input
-                            type="url"
+                            name="bio"
                             id="website"
                             value="<?php echo$_SESSION['bio'];?>"
                             class="edit-profile__input"
@@ -130,6 +176,7 @@
                         </label>
                         <input 
                             type="email"
+                            name="email"
                             id="email"
                             value="<?php echo$_SESSION['email'];?>"
                             class="edit-profile__input"
@@ -141,8 +188,10 @@
                         </label>
                         <input 
                             type="text"
+                            name="country"
                             class="edit-profile__input"
                             id="country"
+                            value="<?php echo$_SESSION['country'];?>"
                         />
                     </div>
                     <div class="edit-profile__form-row">
@@ -151,6 +200,7 @@
                         </label>
                         <input 
                             type="text"
+                            name="phone"
                             class="edit-profile__input"
                             id="phone-number"
                         />
@@ -158,9 +208,9 @@
                     <div class="edit-profile__form-row">
                         <label for="gender" class="edit-profile__label">Gender</label>
                         <select id="gender" style="margin-right:110px">
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="whatever">Not Specified</option>
+                            <option value="male" name="gender">Male</option>
+                            <option value="female" name="gender">Female</option>
+                            <option value="whatever" name="gender">Not Specified</option>
                         </select>
                     </div>
                     <div class="edit-profile__form-row">
@@ -205,6 +255,28 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
+  <script type="text/javascript">
+            window.addEventListener("load", function () {
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden"; 
+            });
+        </script>
+        <script>
+           $("#profileImage").click(function(e) {
+           $("#imageUpload").click();
+           });
+
+           function fasterPreview( uploader ) {
+               if ( uploader.files && uploader.files[0] ){
+                   $('#profileImage').attr('src', 
+                   window.URL.createObjectURL(uploader.files[0]) );
+                }
+            }
+
+            $("#imageUpload").change(function(){
+            fasterPreview( this );
+            });
+            </script>
         <script src="js/app.js"></script>
     </body>
 </html>

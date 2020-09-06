@@ -73,7 +73,7 @@
                 <a href="profile.php">
                     <img
                         class="photo__vata footer_nav__" 
-                        src="images/first.jpg"
+                        src="image\<?php echo$_SESSION['profilephoto'];?>"
                     />
                 </a>
                 <a href="feed.php" class="footer_nav__" style="margin-left:40px";>
